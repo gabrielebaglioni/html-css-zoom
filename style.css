@@ -15,7 +15,7 @@ header,footer{
    align-items: center;
    position: relative;
    z-index: 1;
-   padding: 5px 2.5px;
+   padding: 5px 5px;
 }
 
 header{
@@ -31,6 +31,7 @@ footer{
  color: rgb(168, 168, 168);
  bottom: 0;
  left: 0;
+ 
 }
 button{
    display: inline-block;
@@ -143,7 +144,51 @@ main{
     bottom: 5px;
     left: 5px;
 }
+.btn-icon{
+   font-size: 0.75rem;
+   padding: 0 1.3rem;
+}
 
+.btn-red{
+   font-size: small;
+   padding: 5px 10px;
+   background-color: #a8352e;
+   color: #fff;
+   border-radius: 5px;
+   margin: 0 1.3rem;
+}
+
+.btn-menu{
+   position: relative;
+}
+footer div i {
+   font-size: 1.5rem;
+   margin-bottom: 5px;
+}
+
+footer .lillo span{
+   display: inline-block;
+   vertical-align: top;
+}
+
+footer .rec i{
+   margin-left: 10px;
+   padding: 0 5px;
+   border-radius: 5px;
+   background-color: #a8a8a8;
+   color: #1b1b1b;
+}
+.rec{
+   margin: 2px;
+}
+div .tool{
+   display: flex;
+   
+}
+div .tools{
+display: flex;
+justify-content: center;
+}
 
 
 
